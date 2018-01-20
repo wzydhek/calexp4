@@ -1,0 +1,96 @@
+
+This is ecal3d, a library for model export, model loading, and
+bone-based animation.  It is a direct derivative of cal3d, which can
+be found at https://gna.org/projects/cal3d/ The modifications that make
+ecal3d different from cal3d were written primarily by Joshua Yelon, lead
+developer for eGenesis.  You can find updated versions of this library
+by going to egenesis.com and looking for the "downloads" web page.
+
+* Software License:
+  
+  Everything in the cal3d directory is licensed under the LGPL.
+  Everything in the calexp directory is licensed under the GPL.
+  The file "caluserdata.h" in the andy directory is public domain.
+  All the various READMEs, including this one, are public domain.
+
+GENERAL NOTE
+------------
+* This code is BASED on the Cal3d 0.7 revision.  Work has started on
+  merging the newer Cal3d features, but work is slow to avoid client
+  and model breakage.
+
+* The viewer has was contributed by a user of the library a while ago,
+  it has not been tested to even make sure it compiles in a while. Patches
+  and updates are welcome.  Send them to pluribus@pluribus.org and I will
+  test them and integrate them. It requires GLUT or FreeGLUT to build.
+
+* eGenesis offers nothing in the way of support for eCal3d for the viewer
+  and users of altered versions of ecal3d with ATITD get to keep all pieces
+  if it breaks.
+
+* It is possible to provide "user data fields" when compiling
+  ecal3d.  User data fields are inserted into the ecal3d structs without
+  question.  As a rule, they are not accessed by ecal3d itself, but
+  are used to store various data by the caller of ecal3d.  ATITD
+  takes advantage of this mechanism, the file andy/caluserdata.h defines
+  a number of fields needed by the ATITD client.
+
+WINDOWS VERSION NOTES
+---------------------
+* Here are the files you can produce using the makefile provided:
+
+  cal3dx.dll - a version of the library compatible with ATITD
+  calexp3.dlo - an exporter plugin for 3DSMAX 3.
+  calexp4.dlo - an exporter plugin for 3DSMAX 4.
+  calexp5.dlo - an exporter plugin for 3DSMAX 5.
+  calexp6.dlo - an exporter plugin for 3DSMAX 6.
+  calexp8.dlo - an exporter plugin for 3DSMAX 8.
+  calexp9.dlo - an exporter plugin for 3DSMAX 9.
+  
+  To compile these files, you will need to change directory to
+  the build directory, and type 'nmake cal3dx.dll' or the like.
+
+* The makefile contains many rules for building various things for
+  which we haven't given you source code.  That is because the makefile
+  is actually the entire makefile for "A Tale in the Desert".
+  Simply ignore the other junk.
+
+* The source code is fairly portable - it has been compiled with
+  visual C 6, visual C 7, and gcc.  It would probably compile under
+  most compilers, since it contains very little that is OS dependent.
+  However, I have not tested anything other than Visual C 6 myself,
+  and the Makefile provided is primarily for Visual C 6.  For it to
+  work, you must have the command line version of the compiler in your
+  path.  You also need the cygwin utilities, or at least the
+  commands "cp", "mv", "rm" and a few others.
+
+* If you want to build the 3DSMAX 3 exporter, you'll need to copy
+  the 3DSMAX 3 SDK (all headers and libraries) into the directory
+  maxsdk3. If you want to build the 3DSMAX 4 exporter, you'll need to
+  copy the 3DSMAX 4 SDK (all headers and libraries) into the directory
+  maxsdk4.  If you use 3DSMAX 5, you'll need to use the 3DSMAX 4 exporter.
+  It is compatible with 3DSMAX 5.
+
+* Building the Max 3, Max 4, and Max 5 exporters requires you to use Visual
+  Studio 6.
+
+* The 3D Studio Max 8.0 version of the exporter MUST be built with VC 7.0 or
+  7.1.
+
+* The 3D Studio Max 9.0 version of the exporter MUST be built with VC 2005.
+
+* NOTE: There are rules to handle building on other version of 3D Studio Max.
+  Although I created them, I have not tested them. - Pluribus
+
+LINUX/OSX VERSION NOTES
+-----------------------
+* I have included a basic makefile with all the "A Tale in the Desert"
+  rules ripped out.  Please let me know if you have problems using this
+  makefile.
+
+* The source code is fairly portable - it has been compiled with
+  GCC 2.9x, GCC 3.x (up to 3.4) and GCC 4.x (up to 4.1.1).  It would
+  probably compile under most compilers, since it contains very little that is
+  OS dependent.  The Makefile provided is primarily for GNU make. NOTE: The client
+  is currently built for release on GCC 3.2.2, if you wish to use a replacement
+  version of eCal3d, you MUST use GCC 3.2.2 to ensure compatibility.

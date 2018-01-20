@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calexp4", "calexp4\calexp4.vcxproj", "{4BE1C92A-E58C-47CD-8351-F72563CA2444}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F} = {2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cal3d", "cal3d\cal3d.vcxproj", "{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug 2015|x64 = Debug 2015|x64
+		Debug 2015|x86 = Debug 2015|x86
+		Debug 2016|x64 = Debug 2016|x64
+		Debug 2016|x86 = Debug 2016|x86
+		Release 2015|x64 = Release 2015|x64
+		Release 2015|x86 = Release 2015|x86
+		Release 2016|x64 = Release 2016|x64
+		Release 2016|x86 = Release 2016|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BE1C92A-E58C-47CD-8351-F72563CA2444}.Debug 2015|x64.ActiveCfg = Debug 2015|x64
+		{4BE1C92A-E58C-47CD-8351-F72563CA2444}.Debug 2015|x64.Build.0 = Debug 2015|x64
+		{4BE1C92A-E58C-47CD-8351-F72563CA2444}.Debug 2015|x86.ActiveCfg = Debug 2015|Win32
+		{4BE1C92A-E58C-47CD-8351-F72563CA2444}.Debug 2015|x86.Build.0 = Debug 2015|Win32
+		{4BE1C92A-E58C-47CD-8351-F72563CA2444}.Debug 2016|x64.ActiveCfg = Debug 2016|x64
+		{4BE1C92A-E58C-47CD-8351-F72563CA2444}.Debug 2016|x64.Build.0 = Debug 2016|x64
+		{4BE1C92A-E58C-47CD-8351-F72563CA2444}.Debug 2016|x86.ActiveCfg = Debug 2016|Win32
+		{4BE1C92A-E58C-47CD-8351-F72563CA2444}.Debug 2016|x86.Build.0 = Debug 2016|Win32
+		{4BE1C92A-E58C-47CD-8351-F72563CA2444}.Release 2015|x64.ActiveCfg = Release 2015|x64
+		{4BE1C92A-E58C-47CD-8351-F72563CA2444}.Release 2015|x64.Build.0 = Release 2015|x64
+		{4BE1C92A-E58C-47CD-8351-F72563CA2444}.Release 2015|x86.ActiveCfg = Release 2015|Win32
+		{4BE1C92A-E58C-47CD-8351-F72563CA2444}.Release 2015|x86.Build.0 = Release 2015|Win32
+		{4BE1C92A-E58C-47CD-8351-F72563CA2444}.Release 2016|x64.ActiveCfg = Release 2016|x64
+		{4BE1C92A-E58C-47CD-8351-F72563CA2444}.Release 2016|x64.Build.0 = Release 2016|x64
+		{4BE1C92A-E58C-47CD-8351-F72563CA2444}.Release 2016|x86.ActiveCfg = Release 2016|Win32
+		{4BE1C92A-E58C-47CD-8351-F72563CA2444}.Release 2016|x86.Build.0 = Release 2016|Win32
+		{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}.Debug 2015|x64.ActiveCfg = Debug 2015|x64
+		{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}.Debug 2015|x64.Build.0 = Debug 2015|x64
+		{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}.Debug 2015|x86.ActiveCfg = Debug 2015|Win32
+		{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}.Debug 2015|x86.Build.0 = Debug 2015|Win32
+		{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}.Debug 2016|x64.ActiveCfg = Debug 2016|x64
+		{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}.Debug 2016|x64.Build.0 = Debug 2016|x64
+		{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}.Debug 2016|x86.ActiveCfg = Debug 2016|Win32
+		{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}.Debug 2016|x86.Build.0 = Debug 2016|Win32
+		{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}.Release 2015|x64.ActiveCfg = Release 2015|x64
+		{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}.Release 2015|x64.Build.0 = Release 2015|x64
+		{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}.Release 2015|x86.ActiveCfg = Release 2015|Win32
+		{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}.Release 2015|x86.Build.0 = Release 2015|Win32
+		{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}.Release 2016|x64.ActiveCfg = Release 2016|x64
+		{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}.Release 2016|x64.Build.0 = Release 2016|x64
+		{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}.Release 2016|x86.ActiveCfg = Release 2016|Win32
+		{2C7FA7AC-C5C6-48F7-8E13-8D9E3EBFA81F}.Release 2016|x86.Build.0 = Release 2016|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C39AC14B-8E71-469B-B580-AC8E5B594323}
+	EndGlobalSection
+EndGlobal

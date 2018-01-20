@@ -8,13 +8,8 @@
 //////////////////////////////////////////////////////////////////
 
 #include "max.h"
-#ifdef MAX9
-#include "bipexp.h"
-#include "phyexp.h"
-#else
 #include "CS/bipexp.h"
 #include "CS/phyexp.h"
-#endif _MAX9
 #include "cx-extramax.h"
 #if MAX_RELEASE >= 4000
 #include "iparamb2.h"

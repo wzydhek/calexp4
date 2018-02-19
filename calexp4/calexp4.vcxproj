@@ -561,13 +561,13 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;CALEXP4_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;CXUSERDATA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ADSK_3DSMAX_SDK_2017)\include;C:\Users\Walt\Documents\Visual Studio 2017\Projects\calexp4\cal3d;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ADSK_3DSMAX_SDK_2017)\include;D:\Development\Visual Studio 2017\Projects\calexp4\cal3d;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ModuleDefinitionFile>calexp4.def</ModuleDefinitionFile>
-      <AdditionalLibraryDirectories>$(ADSK_3DSMAX_SDK_2017)\lib\x64\Release;C:\Users\Walt\Documents\Visual Studio 2017\Projects\calexp4\x64\Debug 2017;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ADSK_3DSMAX_SDK_2017)\lib\x64\Release;D:\Development\Visual Studio 2017\Projects\calexp4\x64\Debug 2017;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;gfx.lib;mesh.lib;maxutil.lib;maxscrpt.lib;paramblk2.lib;cal3d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -578,13 +578,13 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;CALEXP4_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;CXUSERDATA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ADSK_3DSMAX_SDK_2018)\include;C:\Users\Walt\Documents\Visual Studio 2017\Projects\calexp4\cal3d;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ADSK_3DSMAX_SDK_2018)\include;D:\Development\Visual Studio 2017\Projects\calexp4\cal3d;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ModuleDefinitionFile>calexp4.def</ModuleDefinitionFile>
-      <AdditionalLibraryDirectories>$(ADSK_3DSMAX_SDK_2018)\lib\x64\Release;C:\Users\Walt\Documents\Visual Studio 2017\Projects\calexp4\x64\Debug 2018;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ADSK_3DSMAX_SDK_2018)\lib\x64\Release;D:\Development\Visual Studio 2017\Projects\calexp4\x64\Debug 2018;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;gfx.lib;mesh.lib;maxutil.lib;maxscrpt.lib;paramblk2.lib;cal3d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
